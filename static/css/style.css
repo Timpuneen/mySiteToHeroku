@@ -706,10 +706,11 @@ header {
 
 .parallax {
     min-height: 100vh;
-    -webkit-background: url("../img/navi.png") center / cover no-repeat fixed;
+    background-color: #000;
+    /* -webkit-background: url("../img/navi.png") center / cover no-repeat fixed;
     -moz-background: url("../img/navi.png") center / cover no-repeat fixed;
     -ms-background: url("../img/navi.png") center / cover no-repeat fixed;
-    background: url("../img/navi.png") center / cover no-repeat fixed;
+    background: url("../img/navi.png") center / cover no-repeat fixed; */
 }
 
 @media screen and (max-width: 1440px) {
