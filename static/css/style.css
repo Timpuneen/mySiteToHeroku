@@ -534,7 +534,7 @@ header {
 }
 
 .footer {
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
     padding-left: 10vw;
     padding-right: 10vw;
     min-width: 0;
