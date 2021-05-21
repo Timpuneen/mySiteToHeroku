@@ -528,7 +528,6 @@ header {
 
 .containerS {
     max-width: 2560px;
-    min-width: 0;
     padding-left: 6vw;
     padding-right: 6vw;
     margin: 0 auto;
@@ -708,7 +707,6 @@ header {
 
 .parallax {
     min-height: 100vh;
-    display: flex;
     background: url("../img/navi.png") center / cover no-repeat fixed;
 }
 
