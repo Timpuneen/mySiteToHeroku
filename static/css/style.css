@@ -710,7 +710,6 @@ header {
     -moz-background: url("../img/navi.png") center / cover no-repeat fixed;
     -ms-background: url("../img/navi.png") center / cover no-repeat fixed;
     background: url("../img/navi.png") center / cover no-repeat fixed;
-    backface-visibility: visible;
 }
 
 @media screen and (max-width: 1440px) {
