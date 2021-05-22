@@ -9,6 +9,3 @@
 //     $(".parallax").css("min-height", lockPaddingValue);
 //     $(".parallax").css("height", lockPaddingValue);
 // });
-
-$modal.on('show', () => $scrollBox.css({ 'pointer-events': 'none' }));
-$modal.on('hide', () => $scrollBox.css({ 'pointer-events': 'auto' }));
