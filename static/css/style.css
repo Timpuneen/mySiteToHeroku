@@ -705,7 +705,9 @@ header {
 }
 
 .parallax {
-    min-height: 100vh;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    min-height: 110vh;
     -webkit-background: url("../img/navi.png") center / cover no-repeat fixed;
     -moz-background: url("../img/navi.png") center / cover no-repeat fixed;
     -ms-background: url("../img/navi.png") center / cover no-repeat fixed;
