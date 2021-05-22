@@ -705,15 +705,11 @@ header {
 }
 
 .parallax {
-    min-height: 775px;
-    /* -webkit-background: url("../img/navi.png") center / cover no-repeat fixed;
+    min-height: 100vh;
+    -webkit-background: url("../img/navi.png") center / cover no-repeat fixed;
     -moz-background: url("../img/navi.png") center / cover no-repeat fixed;
-    -ms-background: url("../img/navi.png") center / cover no-repeat fixed; */
-    background: url("../img/navi.png");
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-attachment: fixed;
-    background-size: 1775px 1775px;
+    -ms-background: url("../img/navi.png") center / cover no-repeat fixed;
+    background: url("../img/navi.png") center / cover no-repeat fixed;
 }
 
 @media screen and (max-width: 1440px) {
