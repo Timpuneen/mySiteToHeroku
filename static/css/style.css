@@ -706,20 +706,21 @@ header {
 
 .parallax {
     min-height: 100vh;
-    /* -webkit-background: url("../img/navi.png") center / cover no-repeat fixed;
+    -webkit-background: url("../img/navi.png") center / cover no-repeat fixed;
     -moz-background: url("../img/navi.png") center / cover no-repeat fixed;
     -ms-background: url("../img/navi.png") center / cover no-repeat fixed;
-    background: url("../img/navi.png") center / cover no-repeat fixed; */
+    background: url("../img/navi.png") center / cover no-repeat fixed;
 }
 
-.parapet {
+
+/* .parapet {
     position: fixed;
     z-index: -1;
     top: 0;
     left: 0;
     min-height: 100vh;
     min-width: 100vw;
-}
+} */
 
 @media screen and (max-width: 1440px) {
     .int {
