@@ -8,23 +8,24 @@
 */
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
-window.onload = function () {
-////////////////////////////////////////////////////////
+window.onload = function() {
+    ////////////////////////////////////////////////////////
     window.addEventListener('scroll', scroller);
+
     function scroller() {
         let el = $('#trigger').attr('class');
         if (!el.includes('_active')) {
             $('#upBtn').addClass("_activ");
-        }
-        else {
+        } else {
             $('#upBtn').removeClass("_activ");
         }
     }
-////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////
     const anime = document.querySelectorAll('.anims, #trigger');
 
     if (anime.length > 0) {
         window.addEventListener('scroll', animScroll);
+
         function animScroll() {
             for (let index = 0; index < anime.length; index++) {
                 const animItem = anime[index];
@@ -47,6 +48,7 @@ window.onload = function () {
                 }
             }
         }
+
         function offset(el) {
             const rect = el.getBoundingClientRect(),
                 scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
@@ -60,8 +62,8 @@ window.onload = function () {
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
 //------Код для плавной прокрутки к элементу------//
-$(function () {
-    $("a.scrollto").click(function () {
+$(function() {
+    $("a.scrollto").click(function() {
         var elementClick = $(this).attr("href")
         var destination = $(elementClick).offset().top;
         jQuery("html:not(:animated),body:not(:animated)").animate({
