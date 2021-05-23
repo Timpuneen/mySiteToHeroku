@@ -711,6 +711,7 @@ header {
 
 .para {
     position: fixed;
+    text-align: center;
     z-index: -1;
     top: 0;
     left: 0;
