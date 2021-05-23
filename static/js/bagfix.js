@@ -1,6 +1,6 @@
 $(document).ready(function() {
     const lockPaddingValue = window.outerHeight;
-    const hResult = String(lockPaddingValue + 100) + 'px';
+    const hResult = String(lockPaddingValue + 120) + 'px';
     const result = String(lockPaddingValue * 1.5 + 150) + 'px';
     $(".parallax").css("min-height", hResult);
     $(".parallax").css("height", hResult);
