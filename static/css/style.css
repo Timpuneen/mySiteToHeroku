@@ -716,8 +716,8 @@ header {
     min-height: 100vh;
     min-width: 100vw;
     left: 50%;
-    top: 40%;
-    transform: translate(-50%, -30%);
+    bottom: 60%;
+    transform: translate(-50%, 60%);
 }
 
 @media screen and (max-width: 1440px) {
