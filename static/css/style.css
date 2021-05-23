@@ -710,6 +710,7 @@ header {
     -moz-background: url("../img/navi.png") center / cover no-repeat fixed;
     -ms-background: url("../img/navi.png") center / cover no-repeat fixed;
     background: url("../img/navi.png") center / cover no-repeat fixed;
+    opacity: 0;
 }
 
 
