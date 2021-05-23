@@ -706,7 +706,7 @@ header {
 
 .parallax {
     min-height: 100vh;
-    background: url("../img/navi.png") center / cover no-repeat fixed;
+    background: url("../img/1px.png") center / cover no-repeat fixed;
     opacity: 0;
 }
 
