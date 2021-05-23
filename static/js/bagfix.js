@@ -3,7 +3,7 @@ $(document).ready(function() {
     $(".parallax").css("min-height", lockPaddingValue);
     $(".parallax").css("height", lockPaddingValue);
     const res = lockPaddingValue.substring(0, lockPaddingValue.length - 2);
-    const result = String(res * 1.6) + 'px';
+    const result = String(res * 1.8) + 'px';
     $(".parallax").css("background-size", result + "," + lockPaddingValue)
 });
 
