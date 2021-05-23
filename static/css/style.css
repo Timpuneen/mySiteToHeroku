@@ -713,10 +713,11 @@ header {
 .parapet {
     position: fixed;
     z-index: -1;
-    top: 0;
-    left: 0;
     min-height: 100vh;
     min-width: 100vw;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 @media screen and (max-width: 1440px) {
@@ -766,6 +767,12 @@ header {
     }
     #stata div {
         order: 3;
+    }
+    #table001 {
+        order: 2;
+    }
+    #table002 {
+        order: 1;
     }
     #statInf {
         font-size: 100%;
@@ -911,6 +918,8 @@ header {
     #hzKakoiID {
         flex-direction: row;
         padding-bottom: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
     }
     #statInf {
         padding-left: 15px;
@@ -979,6 +988,12 @@ header {
     }
     .soloSoc {
         padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    table.steelBlueCols {
+        width: 90vw;
     }
 }
 
@@ -1068,9 +1083,6 @@ header {
 @media screen and (max-width: 460px) {
     #startInfo {
         font-size: 140%;
-    }
-    table.steelBlueCols {
-        width: 90vw;
     }
 }
 
