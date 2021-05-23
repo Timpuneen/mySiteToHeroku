@@ -4,6 +4,7 @@ $(document).ready(function() {
     $(".parallax").css("height", lockPaddingValue);
     const res = lockPaddingValue.substring(0, lockPaddingValue.length - 2);
     const result = String(res * 1.8) + 'px';
+    const hResult = String(res * 1.2) + 'px';
     $(".parallax").css("background-size", result + "," + lockPaddingValue)
 });
 
