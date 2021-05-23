@@ -710,6 +710,7 @@ header {
 }
 
 .para {
+    opacity: 0;
     position: fixed;
     text-align: center;
     z-index: -1;
