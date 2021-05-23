@@ -1,7 +1,7 @@
 $(document).ready(function() {
     const lockPaddingValue = window.outerHeight;
-    const hResult = String(lockPaddingValue * 1.2) + 'px';
-    const result = String(lockPaddingValue * 1.8) + 'px';
+    const hResult = String(lockPaddingValue * 1.1) + 'px';
+    const result = String(lockPaddingValue * 1.65) + 'px';
     $(".parallax").css("min-height", hResult);
     $(".parallax").css("height", hResult);
     $(".parallax").css("background-size", result + "," + hResult)
