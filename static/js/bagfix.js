@@ -1,11 +1,10 @@
 $(document).ready(function() {
-    const lockPaddingValue = window.outerHeight + 'px';
-    $(".parallax").css("min-height", lockPaddingValue);
-    $(".parallax").css("height", lockPaddingValue);
-    const res = lockPaddingValue.substring(0, lockPaddingValue.length - 2);
-    const result = String(res * 2) + 'px';
-    const hResult = String(res * 1.4) + 'px';
-    $(".parallax").css("background-size", result + "," + lockPaddingValue)
+    const lockPaddingValue = window.outerHeight;
+    const result = String(lockPaddingValue * 1.8) + 'px';
+    const hResult = String(lockPaddingValue * 1.2) + 'px';
+    $(".parallax").css("min-height", hResult);
+    $(".parallax").css("height", hResult);
+    $(".parallax").css("background-size", result + "," + hResult)
 });
 
 // $(window).resize(function() {
