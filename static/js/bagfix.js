@@ -6,7 +6,8 @@ $(document).ready(function() {
     let el = $(".parallax").css('width');
     let res = el.substring(0, el.length - 2);
     let result = String(res * 2) + 'px';
-    $(".parallax").css("background-size", result + lockPaddingValue)
+    $(".parallax").css("background-size", result + "," + lockPaddingValue)
+    alert($(".parallax").css("background-size"));
 });
 
 // $(window).resize(function() {
