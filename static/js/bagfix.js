@@ -1,9 +1,9 @@
 $(document).ready(function() {
     const lockPaddingValue = window.outerHeight + 'px';
-    const lockPaddingValueW = $(".parallax").css("height");
+    const lockPaddingStat = $(".parallax").css("background-size");
     $(".parallax").css("min-height", lockPaddingValue);
     $(".parallax").css("height", lockPaddingValue);
-    // $(".parallax").css("background-size", "2000px" + ',' + lockPaddingValue)
+    $(".parallax").css("background-size", lockPaddingStat)
 });
 
 // $(window).resize(function() {
